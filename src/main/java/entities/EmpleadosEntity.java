@@ -32,9 +32,6 @@ public class EmpleadosEntity {
     @Basic
     @Column(name = "dept_no", nullable = false)
     private Byte deptNo;
-    @ManyToOne
-    @JoinColumn(name = "dept_no", referencedColumnName = "dept_no", insertable = false, updatable = false)
-    private DepartamentosEntity departamentosByDeptNo;
 
     public Short getEmpNo() {
         return empNo;
@@ -130,13 +127,5 @@ public class EmpleadosEntity {
         result = 31 * result + (comision != null ? comision.hashCode() : 0);
         result = 31 * result + (deptNo != null ? deptNo.hashCode() : 0);
         return result;
-    }
-
-    public DepartamentosEntity getDepartamentosByDeptNo() {
-        return departamentosByDeptNo;
-    }
-
-    public void setDepartamentosByDeptNo(DepartamentosEntity departamentosByDeptNo) {
-        this.departamentosByDeptNo = departamentosByDeptNo;
     }
 }

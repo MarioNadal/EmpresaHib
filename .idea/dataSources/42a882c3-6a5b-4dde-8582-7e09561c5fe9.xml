@@ -1075,8 +1075,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="292" parent="1" name="miBD">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-11-03.09:41:37</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-03.08:41:37</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-14.11:03:19</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-14.10:03:19</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="293" parent="1" name="root">
@@ -1133,6 +1133,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="305" parent="299" name="emp_no">
+      <AutoIncrement>8000</AutoIncrement>
       <DasType>smallint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>

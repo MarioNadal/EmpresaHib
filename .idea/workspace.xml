@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92c8904-b956-4d50-a05d-d92a6b2af73f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/ConsultarEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/EmfSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/DepartamentosEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/EmpleadosEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="d92c8904-b956-4d50-a05d-d92a6b2af73f" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/ModificarEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/42a882c3-6a5b-4dde-8582-7e09561c5fe9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/42a882c3-6a5b-4dde-8582-7e09561c5fe9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/42a882c3-6a5b-4dde-8582-7e09561c5fe9/storage_v2/_src_/schema/miBD.3h4zAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/42a882c3-6a5b-4dde-8582-7e09561c5fe9/storage_v2/_src_/schema/miBD.3h4zAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/ConsultarEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/ConsultarEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/DepartamentosEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/DepartamentosEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/EmpleadosEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/EmpleadosEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prueba" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -47,27 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;42a882c3-6a5b-4dde-8582-7e09561c5fe9&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Alumno_FP/Desktop/NadalAraMarioDAM2/AD/EmpresaHib/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JPA.DatabaseSchemaImportDialog": "42a882c3-6a5b-4dde-8582-7e09561c5fe9",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/Alumno_FP/Desktop/NadalAraMarioDAM2/AD/EmpresaHib/src/main/java",
+    "last_opened_file_path": "C:/Users/Alumno_FP/Desktop/NadalAraMarioDAM2/AD/EmpresaHib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
@@ -84,8 +83,30 @@
       <updated>1698999024725</updated>
       <workItem from="1698999025749" duration="3889000" />
       <workItem from="1699275700715" duration="98000" />
-      <workItem from="1699436131179" duration="5635000" />
+      <workItem from="1699436131179" duration="6542000" />
+      <workItem from="1699601452928" duration="1481000" />
+      <workItem from="1699603345347" duration="129000" />
+      <workItem from="1699603606523" duration="3934000" />
+      <workItem from="1699878932736" duration="44000" />
+      <workItem from="1699952700604" duration="3622000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1699441784071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699441784071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1699441794037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699441794037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
